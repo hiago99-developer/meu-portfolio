@@ -8,9 +8,13 @@
 }
 
 header {
-  display: flex;
-  height: auto;
+  height: 14vh;
   width: auto;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
   background-color: #0b0b0c;
 }
 
@@ -21,21 +25,82 @@ main {
 #logo-marca {
   max-height: 135px;
   max-width: 135px;
+  margin-left: 15px;
+}
+
+#icone-menu {
+  margin-right: 20px;
+}
+
+#menu-desktop {
+  display: none;
 }
 
 #inicio {
+  padding: 20px 0;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
   height: 100vh;
 }
 
+.inicio-textos {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 h1 {
+  margin-left: 23px;
   font-weight: 500;
+  line-height: 30px;
+}
+
+.inicio-paragrafo {
+  margin-left: 23px;
+  font-size: 0.9rem;
+}
+
+.botao-inicio {
+  margin-left: 20px;
+  width: 140px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: transparent;
+}
+
+.botao-inicio > p {
+  text-align: center;
+}
+
+#link-perfil-linkedin {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  border-width: 3px; /* Largura da borda */
+  border-style: solid;
+  border-image: linear-gradient(
+    to right,
+    #ffa500,
+    #ff4500
+  );
+  border-image-slice: 1;
+  border-radius: 5px;
+}
+
+#botao-linkedin {
+  width: 25px;
 }
 
 #titulo-principal {
