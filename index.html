@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-    <title>Meu portfólio</title>
+    <title>Portfólio</title>
   </head>
   <body>
     <header>
@@ -40,10 +40,26 @@
             Transformando linhas de código em experiências interativas e
             impactantes.
           </p>
+        </div>
+        <div id="botoes-iniciais">
           <button class="botao-inicio">
-            <a id="link-perfil-linkedin" href="#">
+            <a
+              id="link-perfil-linkedin"
+              href="https://www.linkedin.com/feed/?trk=404_page"
+              target="_blank"
+            >
               <p>Linkedin</p>
-              <img src="icones/icons8-linkedin-32.png" alt="#" />
+              <img
+                id="logo-linkedin"
+                src="icones/icons8-linkedin-32.png"
+                alt="#"
+              />
+            </a>
+          </button>
+          <button class="botao-inicio" id="botao-inicio-github">
+            <a id="link-perfil-github" href="#">
+              <p>Github</p>
+              <img id="logo-github" src="icones/icons8-github-48.png" alt="#" />
             </a>
           </button>
         </div>
@@ -55,6 +71,40 @@
           />
         </div>
       </section>
+
+      <section id="sobre-mim">
+        <div class="sobre-mim-texto">
+          <h2 id="titulo-sobre-mim">Sobre mim</h2>
+        </div>
+        <div>
+          <p class="sobre-mim-trecho">
+            🎓 Front-end Developer & Cientista da computação
+          </p>
+        </div>
+        <div>
+          <p class="sobre-mim-paragrafo">
+            Olá, sou <strong id="destaque-nome">Hiago Belém</strong>, um
+            apaixonado por desenvolvimento em busca de inovação e aprendizado
+            constante. Atualmente cursando Ciência da Computação, estou
+            mergulhando no mundo da programação e fortalecendo minhas
+            habilidades por meio do curso de desenvolvedor da One Bit Code.
+            Tenho conhecimentos em HTML, CSS e JavaScript, permitindo-me criar
+            interfaces interativas e envolventes, enquanto minha familiaridade
+            com ferramentas como Git e GitHub garante um fluxo de trabalho
+            eficiente.
+          </p>
+          <div id="sobre-mim-imagens">
+            <img
+              id="sobre-mim-img"
+              src="imagens/IMG_20230813_173714_162-removebg-preview.png"
+              alt="#"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section></section>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>
