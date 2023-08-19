@@ -19,6 +19,7 @@ header {
   align-items: center;
   background-color: #0b0b0c;
   z-index: 1000;
+  border-bottom: 1px solid #0000008a;
 }
 
 main {
@@ -59,10 +60,18 @@ main {
 
 h1 {
   margin-left: 30px;
-  font-weight: 500;
+  font-weight: 600;
+  font-size: 1.7rem;
   line-height: 30px;
 }
 
+#titulo-principal {
+  font-size: 1.8rem;
+  background: linear-gradient(to right, #47184b, #11264d);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
 .inicio-paragrafo {
   margin-left: 30px;
   font-size: 0.9rem;
@@ -72,14 +81,14 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 30px;
+  gap: 35px;
 }
 
 .botao-inicio {
   width: 140px;
   height: auto;
   border: none;
-  background-color: transparent;
+  background-color: #121212;
 }
 
 .botao-inicio > p {
@@ -87,8 +96,7 @@ h1 {
 }
 
 #link-perfil-linkedin {
-  padding: 5px;
-  width: 100%;
+  padding: 10px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -103,14 +111,13 @@ h1 {
   cursor: pointer;
   transition: background-color 0.3s ease;
 
-  &:hover {
+  &:active {
     background: linear-gradient(to right, #47184b, #47184b, #11264d);
   }
 }
 
 #link-perfil-github {
-  padding: 5px;
-  width: 100%;
+  padding: 10px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -122,7 +129,7 @@ h1 {
   cursor: pointer;
   transition: background-color 0.3s ease;
 
-  &:hover {
+  &:active {
     background-color: #11264d;
   }
 }
@@ -136,14 +143,6 @@ h1 {
   width: 1.5rem;
 }
 
-#titulo-principal {
-  font-size: 1.7rem;
-  background: linear-gradient(to right, #47184b, #11264d);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-}
-
 #imagem-inicio {
   width: 300px;
 }
@@ -155,28 +154,30 @@ h1 {
   background-color: #161616;
   font-family: "Poppins", sans-serif;
   color: white;
+  border: 2px double;
+  border-image: linear-gradient(to right, #6a2171, #193e82) 1;
 }
 
 #titulo-sobre-mim {
-  margin: 30px 0 10px 20px;
+  margin: 30px 0 0px 20px;
   padding-left: 5px;
-  border-left: 3px solid #6a2171;
+  border-left: 4px solid #6a2171;
   text-align: left;
-  font-size: 1.5rem;
-  font-weight: 600;
+  font-size: 1.6rem;
+  font-weight: 700;
   background: linear-gradient(to right, #6a2171, #193e82);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  /*color: #7a1c83cf;*/
 }
 
 .sobre-mim-trecho {
-  padding: 0 20px;
+  padding: 10px 20px;
   text-align: left;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-size: 0.8rem;
+  color: #bbb8b8;
 }
 
 .sobre-mim-paragrafo {
@@ -191,6 +192,13 @@ h1 {
   font-weight: 500;
 }
 
+#sobre-mim-imagens {
+  display: flex;
+  justify-content: center;
+}
+
 #sobre-mim-img {
+  margin: 25px 0;
   width: 250px;
+  background-color: #0b0b0c;
 }
