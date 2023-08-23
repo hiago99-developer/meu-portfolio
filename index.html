@@ -19,7 +19,7 @@
         src="logo-marca/logo-meu-portfolio.png"
         alt="Logo porfolio"
       />
-      <img id="icone-menu" src="icones/align-right.svg" alt="#" />
+      <img id="menu-icon" src="icones/align-right.svg" alt="#" />
       <ul id="menu-desktop">
         <li>Ínicio</li>
         <li>Sobre mim</li>
@@ -30,21 +30,21 @@
     </header>
 
     <main>
-      <section id="inicio">
-        <div class="inicio-textos">
+      <section id="start">
+        <div class="start-texts">
           <h1>
             Olá. Eu sou Hiago. <br />
-            <strong id="titulo-principal">Front-end Developer</strong>
+            <strong id="start-main-title">Front-end Developer</strong>
           </h1>
-          <p class="inicio-paragrafo">
+          <p class="start-paragraphs">
             Transformando linhas de código em experiências interativas e
             impactantes.
           </p>
         </div>
-        <div id="botoes-iniciais">
-          <button class="botao-inicio">
+        <div id="start-buttons">
+          <button class="initial-buttons">
             <a
-              id="link-perfil-linkedin"
+              id="link-profile-linkedin"
               href="https://www.linkedin.com/feed/?trk=404_page"
               target="_blank"
             >
@@ -56,8 +56,8 @@
               />
             </a>
           </button>
-          <button class="botao-inicio" id="botao-inicio-github">
-            <a id="link-perfil-github" href="#">
+          <button class="initial-buttons">
+            <a id="link-profile-github" href="#">
               <p>Github</p>
               <img id="logo-github" src="icones/icons8-github-48.png" alt="#" />
             </a>
@@ -65,37 +65,42 @@
         </div>
         <div>
           <img
-            id="imagem-inicio"
+            id="start-image"
             src="imagens/Design_sem_nome-removebg-preview.png"
             alt=""
           />
         </div>
       </section>
 
-      <section id="sobre-mim">
-        <div class="sobre-mim-texto">
-          <h2 id="titulo-sobre-mim">Sobre mim</h2>
+      <section id="about-me">
+        <div class="about-me-texts">
+          <h2 id="about-me-title">Sobre mim</h2>
         </div>
         <div>
-          <p class="sobre-mim-trecho">
+          <p class="about-me-snippet">
             Front-end Developer & Cientista da computação 🎓
           </p>
         </div>
         <div>
-          <p class="sobre-mim-paragrafo">
-            Olá, sou <strong id="destaque-nome">Hiago Belém</strong>, um
+          <p class="about-me-paragraphs">
+            Olá, sou <strong id="feature-name">Hiago Belém</strong>, um
             apaixonado por desenvolvimento em busca de inovação e aprendizado
             constante. Atualmente cursando Ciência da Computação, estou
             mergulhando no mundo da programação e fortalecendo minhas
             habilidades por meio do curso de desenvolvedor da One Bit Code.
-            Tenho conhecimentos em HTML, CSS e JavaScript, permitindo-me criar
-            interfaces interativas e envolventes, enquanto minha familiaridade
-            com ferramentas como Git e GitHub garante um fluxo de trabalho
-            eficiente.
+            Tenho conhecimentos em
+            <em class="emphasis-tools" id="emphasis-html">HTML</em>,
+            <em class="emphasis-tools" id="emphasis-css">CSS</em> e
+            <em class="emphasis-tools" id="emphasis-js">JavaScript</em>,
+            permitindo-me criar interfaces interativas e envolventes, enquanto
+            minha familiaridade com ferramentas como
+            <em class="emphasis-tools" id="emphasis-git">Git</em> e
+            <em class="emphasis-tools" id="emphasis-github">GitHub</em> garante
+            um fluxo de trabalho eficiente.
           </p>
-          <div id="sobre-mim-imagens">
+          <div id="about-me-container-images">
             <img
-              id="sobre-mim-img"
+              id="about-me-image"
               src="imagens/IMG_20230813_173714_162-removebg-preview.png"
               alt="#"
             />
@@ -104,7 +109,15 @@
       </section>
 
       <section>
-        <p>Meus projetos</p>
+        <h2 id="my-project-title">Meus projetos</h2>
+        <div class="project-card">
+          <img
+            src="imagens/img-project-landing-page.png"
+            alt="projeto landing page"
+          />
+          <h3>Nome do Projeto</h3>
+          <p>Descrição breve do projeto.</p>
+        </div>
       </section>
     </main>
     <script src="script.js"></script>
