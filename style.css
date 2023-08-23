@@ -83,7 +83,7 @@ h1 {
 }
 
 .initial-buttons {
-  width: 140px;
+  width: 37vw;
   height: auto;
   background-color: #121212;
   border: none;
@@ -185,9 +185,9 @@ h1 {
 }
 
 .emphasis-tools {
-  font-weight: 600;
+  font-weight: 500;
   font-style: normal;
-  color: #6a2171;
+  color: #712778;
   text-decoration: underline;
 }
 
