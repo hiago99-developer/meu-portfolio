@@ -82,19 +82,22 @@ h1 {
   gap: 35px;
 }
 
-.initial-buttons {
-  width: 37vw;
-  height: auto;
-  background-color: #121212;
-  border: none;
-}
-
 .initial-buttons > p {
   text-align: center;
 }
 
 #button-linkedin {
-  width: 25px;
+  width: 37vw;
+  height: auto;
+  background: linear-gradient(to right, #47184b, #47184b, #11264d);
+  border: none;
+}
+
+#button-github {
+  width: 37vw;
+  height: auto;
+  background-color: #11264d;
+  border: none;
 }
 
 #link-profile-linkedin {
@@ -112,10 +115,6 @@ h1 {
   border-image-slice: 1;
   cursor: pointer;
   transition: background-color 0.3s ease;
-
-  &:active {
-    background: linear-gradient(to right, #47184b, #47184b, #11264d);
-  }
 }
 
 #link-profile-github {
@@ -130,10 +129,6 @@ h1 {
   border: 2px solid #11264d;
   cursor: pointer;
   transition: background-color 0.3s ease;
-
-  &:active {
-    background-color: #11264d;
-  }
 }
 
 #logo-linkedin,
@@ -143,28 +138,27 @@ h1 {
 
 #start-image {
   width: 300px;
+  margin-bottom: 50px;
 }
 
 #about-me {
   display: flex;
   flex-direction: column;
-  margin: 40px 20px 0 20px;
+  margin: 40px 20px 60px 20px;
   font-family: "Poppins", sans-serif;
   color: white;
   background-color: #161616;
 }
 
 #about-me-title {
+  width: 88%;
   margin: 30px 0 0px 20px;
-  padding-left: 5px;
-  font-size: 1.6rem;
+  padding-bottom: 5px;
+  font-size: 1rem;
   font-weight: 700;
-  color: transparent;
+  color: #6a2171;
   text-align: left;
-  background: linear-gradient(to right, #6a2171, #193e82);
-  background-clip: text;
-  -webkit-background-clip: text;
-  border-left: 4px solid #6a2171;
+  border-bottom: 2px solid #6a2171;
 }
 
 .about-me-snippet {
@@ -203,6 +197,9 @@ h1 {
 }
 
 #my-project-title {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  text-align: center;
 }
 
 .project-card {
