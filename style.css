@@ -44,8 +44,9 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 50px;
+  gap: 60px;
   height: auto;
+  margin-bottom: 50px;
   padding-top: 200px;
   font-family: "Poppins", sans-serif;
   color: white;
@@ -79,7 +80,7 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 35px;
+  gap: 20px;
 }
 
 .initial-buttons > p {
@@ -87,17 +88,19 @@ h1 {
 }
 
 #button-linkedin {
-  width: 37vw;
+  width: 40vw;
   height: auto;
   background: linear-gradient(to right, #47184b, #47184b, #11264d);
-  border: none;
+  border: transparent;
+  border-radius: 5px;
 }
 
 #button-github {
-  width: 37vw;
+  width: 40vw;
   height: auto;
   background-color: #11264d;
-  border: none;
+  border: transparent;
+  border-radius: 5px;
 }
 
 #link-profile-linkedin {
@@ -110,7 +113,7 @@ h1 {
   font-family: "Poppins", sans-serif;
   color: white;
   border-width: 2px;
-  border-style: solid;
+  border-style: none;
   border-image: linear-gradient(to right, #47184b, #47184b, #11264d);
   border-image-slice: 1;
   cursor: pointer;
@@ -126,19 +129,19 @@ h1 {
   padding: 10px;
   font-family: "Poppins", sans-serif;
   color: white;
-  border: 2px solid #11264d;
+  border: 2px none #11264d;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 #logo-linkedin,
-#logo-github {
+#logo-github,
+#logo-instagram {
   width: 1.5rem;
 }
 
 #start-image {
   width: 300px;
-  margin-bottom: 50px;
 }
 
 #about-me {
@@ -148,11 +151,11 @@ h1 {
   font-family: "Poppins", sans-serif;
   color: white;
   background-color: #161616;
+  border-radius: 3px;
 }
 
 #about-me-title {
-  width: 88%;
-  margin: 30px 0 0px 20px;
+  margin: 30px 30px 0 20px;
   padding-bottom: 5px;
   font-size: 1rem;
   font-weight: 700;
@@ -164,14 +167,14 @@ h1 {
 .about-me-snippet {
   padding: 10px 20px;
   font: 300 0.8rem "Poppins", sans-serif;
-  color: #bbb8b8;
+  color: #dfdfdf;
   text-align: left;
 }
 
 .about-me-paragraphs {
   padding: 10px 20px;
   font: 400 "Poppins", sans-serif;
-  color: #dfdfdf;
+  color: #bbb8b8;
 }
 
 #feature-name {
@@ -181,7 +184,6 @@ h1 {
 .emphasis-tools {
   font-weight: 500;
   font-style: normal;
-  color: #712778;
   text-decoration: underline;
 }
 
@@ -194,6 +196,38 @@ h1 {
   width: 250px;
   margin: 25px 0;
   background-color: #0b0b0c;
+}
+
+#about-me-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+#button-instagram {
+  width: 50vw;
+  height: auto;
+  background: linear-gradient(to right, #47184b, #47184b, #11264d);
+  border: transparent;
+  border-radius: 5px;
+}
+
+#link-profile-instagram {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  border-width: 2px;
+  border-style: none;
+  border-image: linear-gradient(to right, #47184b, #47184b, #11264d);
+  border-image-slice: 1;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 #my-project-title {
