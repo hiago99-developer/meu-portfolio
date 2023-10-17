@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: #01040af7;
+  background-color: #020710;
 }
 
 header {
@@ -22,8 +22,19 @@ header {
   align-content: center;
   width: 100%;
   height: 14vh;
-  background-color: #01040af7;
+  background-color: #020710;
   border-bottom: 1px solid #0000008a;
+  backdrop-filter: blur(50px);
+}
+
+header::after {
+  position: absolute;
+  top: 14vh;
+  display: flex;
+  content: "";
+  width: 100%;
+  height: 0.1rem;
+  background-image: linear-gradient(90deg, #5a1f5f, #173367);
 }
 
 #logo-marca {
@@ -59,7 +70,7 @@ header {
 }
 
 h1 {
-  font-size: 1.9rem;
+  font-size: 1.8rem;
   font-weight: 600;
   text-align: center;
   line-height: 40px;
@@ -165,7 +176,7 @@ h1 {
 }
 
 .about-me-snippet {
-  margin: 10px;
+  margin: 10px 30px;
   font: 600 0.9rem "Poppins", sans-serif;
   color: transparent;
   background: linear-gradient(to right, #74297b, #174293);
@@ -185,7 +196,7 @@ h1 {
 }
 
 .emphasis-tools {
-  font-weight: 700;
+  font-weight: 500;
   font-style: normal;
   color: #74297b;
 }
