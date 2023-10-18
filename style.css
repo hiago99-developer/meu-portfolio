@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: #020710;
+  background-color: #030c1a;
 }
 
 header {
@@ -22,7 +22,7 @@ header {
   align-content: center;
   width: 100%;
   height: 14vh;
-  background-color: #020710;
+  background-color: #030c1a;
   border-bottom: 1px solid #0000008a;
   backdrop-filter: blur(50px);
 }
@@ -57,7 +57,7 @@ header::after {
   align-items: center;
   gap: 20px;
   height: auto;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   padding-top: 165px;
   font-family: "Poppins", sans-serif;
   color: white;
@@ -70,9 +70,10 @@ header::after {
 }
 
 h1 {
+  margin: 0 6vw;
   font-size: 1.8rem;
   font-weight: 600;
-  text-align: center;
+  text-align: left;
   line-height: 40px;
 }
 
@@ -84,9 +85,10 @@ h1 {
   -webkit-background-clip: text;
 }
 .start-paragraphs {
-  margin: 0 30px;
+  margin: 0 6vw;
   font-size: 1rem;
-  text-align: center;
+  color: #bbb8b8;
+  text-align: left;
 }
 
 #start-image {
@@ -162,7 +164,7 @@ h1 {
 #about-me {
   display: flex;
   flex-direction: column;
-  margin: 40px 0 60px 0;
+  margin: 0 0 40px 0;
   font-family: "Poppins", sans-serif;
   color: white;
 }
@@ -205,7 +207,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 45px;
+  margin: 10px 0 45px 0;
 }
 
 #button-instagram {
@@ -237,20 +239,18 @@ h1 {
 #my-project-title {
   margin-bottom: 20px;
   font-family: "Poppins", sans-serif;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 400;
   color: white;
   text-align: center;
 }
 
 .project-card {
-  margin: 0 40px;
+  margin: 0 30px;
   font-family: "Poppins", sans-serif;
   text-align: center;
-  background-color: #161616;
-  border-radius: 5px;
   border: 2px solid transparent;
-  background-image: linear-gradient(#161616, #161616),
+  background-image: linear-gradient(#030c1abd, #030c1abd),
     linear-gradient(to right, #47184b, #11264d);
   background-origin: border-box;
   background-clip: content-box, border-box;
@@ -272,9 +272,17 @@ h1 {
 }
 
 .project-card p {
-  margin-top: 5px;
-  color: #888;
+  font-size: 0.7rem;
+  margin: 10px 0;
+  padding: 5px 15px;
+  color: #fc93ff;
+  background-color: #140014;
+  border-radius: 25px;
 }
 
 .tools-used {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
 }
