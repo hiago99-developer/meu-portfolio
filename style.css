@@ -34,7 +34,7 @@ header::after {
   content: "";
   width: 100%;
   height: 0.1rem;
-  background-image: linear-gradient(90deg, #5a1f5f, #173367);
+  background-image: linear-gradient(90deg, #90119b, #002f87);
 }
 
 #logo-marca {
@@ -80,7 +80,7 @@ h1 {
 #start-main-title {
   font-size: 1.9rem;
   color: transparent;
-  background: linear-gradient(to right, #5a1f5f, #173367);
+  background: linear-gradient(to right, #90119b, #002f87);
   background-clip: text;
   -webkit-background-clip: text;
 }
@@ -109,7 +109,7 @@ h1 {
 #button-linkedin {
   width: 55vw;
   height: auto;
-  background: linear-gradient(to right, #47184b, #11264d);
+  background: linear-gradient(to right, #90119b, #002f87);
   border: transparent;
   border-radius: 5px;
 }
@@ -117,7 +117,7 @@ h1 {
 #button-github {
   width: 55vw;
   height: auto;
-  background: linear-gradient(to right, #47184b, #11264d);
+  background: linear-gradient(to right, #90119b, #002f87);
   border: transparent;
   border-radius: 5px;
 }
@@ -134,7 +134,7 @@ h1 {
   color: white;
   border-width: 2px;
   border-style: none;
-  border-image: linear-gradient(to right, #47184b, #11264d);
+  border-image: linear-gradient(to right, #90119b, #002f87);
   border-image-slice: 1;
   cursor: pointer;
   transition: background-color 0.3s ease;
@@ -152,7 +152,7 @@ h1 {
   color: white;
   border-width: 2px;
   border-style: none;
-  border-image: linear-gradient(to right, #47184b, #11264d);
+  border-image: linear-gradient(to right, #90119b, #002f87);
   border-image-slice: 1;
   transition: background-color 0.3s ease;
 }
@@ -183,7 +183,7 @@ h1 {
   margin: 10px 30px;
   font: 600 0.9rem "Poppins", sans-serif;
   color: transparent;
-  background: linear-gradient(to right, #74297b, #174293);
+  background: linear-gradient(to right, #90119b, #002f87);
   background-clip: text;
   -webkit-background-clip: text;
   text-align: center;
@@ -202,7 +202,7 @@ h1 {
 .emphasis-tools {
   font-weight: 500;
   font-style: normal;
-  color: #74297b;
+  color: #90119b;
 }
 
 #about-me-button {
@@ -215,7 +215,7 @@ h1 {
 #button-instagram {
   width: 55vw;
   height: auto;
-  background: linear-gradient(to right, #47184b, #11264d);
+  background: linear-gradient(to right, #90119b, #002f87);
   border: transparent;
   border-radius: 5px;
 }
@@ -258,7 +258,7 @@ h1 {
   text-align: center;
   border: 2px solid transparent;
   background-image: linear-gradient(#030c1abd, #030c1abd),
-    linear-gradient(to right, #47184b, #11264d);
+    linear-gradient(to right, #90119bce, #002f87c7);
   background-origin: border-box;
   background-clip: content-box, border-box;
   box-sizing: border-box;
