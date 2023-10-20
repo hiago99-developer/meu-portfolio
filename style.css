@@ -71,14 +71,14 @@ header::after {
 
 h1 {
   margin: 0 6vw;
-  font-size: 1.8rem;
-  font-weight: 600;
-  text-align: left;
-  line-height: 40px;
+  font-size: 1.9rem;
+  font-weight: 500;
+  text-align: center;
+  line-height: 35px;
 }
 
 #start-main-title {
-  font-size: 1.9rem;
+  font-size: 1.6rem;
   color: transparent;
   background: linear-gradient(to right, #6b1573, #082a6b);
   background-clip: text;
@@ -88,7 +88,7 @@ h1 {
   margin: 0 6vw;
   font-size: 1rem;
   color: #bbb8b8;
-  text-align: left;
+  text-align: center;
 }
 
 #start-image {
@@ -107,7 +107,7 @@ h1 {
 }
 
 #button-linkedin {
-  width: 55vw;
+  width: 65vw;
   height: auto;
   background: linear-gradient(to right, #66196d, #0c2961);
   border: transparent;
@@ -115,7 +115,7 @@ h1 {
 }
 
 #button-github {
-  width: 55vw;
+  width: 65vw;
   height: auto;
   background: linear-gradient(to right, #66196d, #0c2961);
   border: transparent;
@@ -174,14 +174,14 @@ h1 {
 #about-me-title {
   margin: 50px 0 0 0;
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 400;
   color: white;
   text-align: center;
 }
 
 .about-me-snippet {
   margin: 10px 30px;
-  font: 600 0.9rem "Poppins", sans-serif;
+  font: 700 0.9rem "Poppins", sans-serif;
   color: transparent;
   background: linear-gradient(to right, #9b1ca7, #0a3995);
   background-clip: text;
