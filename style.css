@@ -109,7 +109,7 @@ h1 {
 #button-linkedin {
   width: 55vw;
   height: auto;
-  background: linear-gradient(to right, #6b1573, #082a6b);
+  background: linear-gradient(to right, #66196d, #0c2961);
   border: transparent;
   border-radius: 5px;
 }
@@ -117,7 +117,7 @@ h1 {
 #button-github {
   width: 55vw;
   height: auto;
-  background: linear-gradient(to right, #6b1573, #082a6b);
+  background: linear-gradient(to right, #66196d, #0c2961);
   border: transparent;
   border-radius: 5px;
 }
@@ -215,7 +215,7 @@ h1 {
 #button-instagram {
   width: 55vw;
   height: auto;
-  background: linear-gradient(to right, #6b1573, #082a6b);
+  background: linear-gradient(to right, #66196d, #0c2961);
   border: transparent;
   border-radius: 5px;
 }
