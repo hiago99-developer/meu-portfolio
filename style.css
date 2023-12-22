@@ -235,6 +235,7 @@ h1 {
 #projects {
   display: flex;
   flex-direction: column;
+  margin: 0 0 60px 0;
   gap: 20px;
 }
 
@@ -278,12 +279,16 @@ h1 {
   color: #bbb8b8;
 }
 
+.project-image2 {
+  margin: 8vh;
+}
+
 .project-card p {
   font-size: 0.7rem;
   margin: 10px 0;
   padding: 5px 15px;
-  color: #fc93ff;
-  background-color: #140014;
+  color: #bbb8b8;
+  background: linear-gradient(to right, #66196d, #0c2961);
   border-radius: 25px;
 }
 
@@ -293,4 +298,12 @@ h1 {
   flex-direction: row;
   justify-content: center;
   gap: 10px;
+}
+
+#my-skills {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: white;
+  text-align: center;
 }
