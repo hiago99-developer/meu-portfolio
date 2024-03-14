@@ -38,8 +38,9 @@ header::after {
 }
 
 #logo-marca {
-  max-width: 135px;
-  max-height: 135px;
+  max-width: 90px;
+  max-height: 90px;
+  margin-left: 12px;
 }
 
 #menu-icon {
@@ -293,6 +294,7 @@ h1 {
 
 .tools-used {
   margin: 10px 0;
+  padding-bottom: 20px;
   display: flex;
   flex-direction: row;
   justify-content: center;
